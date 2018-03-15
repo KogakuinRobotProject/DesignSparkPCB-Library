@@ -1,0 +1,854 @@
+
+Component libraries (*.cml)
+
+
+=============================
+
+
+Library : DF1B    {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+
+
+=========================================================================
+
+Component   Ref  Scm Symbol Scm Library                                                 Package Pcb Symbol     Pcb Library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DF1B-2P-2.5 CONN 2P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} TOP     DF1B-2P-2.5DSA DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                        SIDE    DF1B-2P-2.5DS  DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+DF1B-3P-2.5 CONN 3P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} TOP     DF1B-3P-2.5DSA DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                        SIDE    DF1B-3P-2.5DS  DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+DF1B-4P-2.5 CONN 4P         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   TOP     DF1B-4P-2.5DSA DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                        SIDE    DF1B-4P-2.5DS  DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+DF1B-5P-2.5 CONN 5P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} TOP     DF1B-5P-2.5DSA DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                        SIDE    DF1B-5P-2.5DS  DF1B {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+
+Library : ZH    {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+
+
+=======================================================================
+
+Component Ref  Scm Symbol Scm Library                                                 Package Pcb Symbol Pcb Library
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ZH 2P     CONN 2P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} top     B2B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                      side    S2B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+ZH 3P     CONN 3P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} top     B3B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                      side    S3B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+ZH 4P     CONN 4P         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   top     B4B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                      side    S4B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+ZH 5P     CONN 5P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} top     B5B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+                                                                                      side    S5B-ZR     ZH {C:\Users\NEC-PCuser\Documents\DesignSpark\Connecter}
+
+Library : MyParts    {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+
+
+==========================================================================
+
+Component           Ref  Scm Symbol          Scm Library                                                                 Package Pcb Symbol           Pcb Library
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+セラロック          XTAL セラロック          MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SIP     セラロック           MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+74HCT244            IC   20P                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DIP     20DIL                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+3006                VR   RV                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SIP     3006P                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+7800                IC   7800                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SKDIP   7800                 MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+                                                                                                                         TO-263  TO-263               User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+ADM3202             IC   16P                 User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   SOL     TSSOP                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+AE-RX210            U    10-2P               MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 USER    AE-RX210             Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+                                                                                                                         USER2   AE-RX210 bottom inly Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+ceramic resonator   XTAL ceramic resonator   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SKDIP   ceramic resonator
+CMH01               D    D                   DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SOD     M-FLAT               MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+CMS04               D    SBD                                                                                             SOD     M-FLAT               MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+COMP                U                                                                                                    QFN     L3G4200D             MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+CONN_SIL_10         PL   10P                 MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 DSC     10                   MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+                                                                                                                         DSCV    Writer               MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+ESAE83-006          SBD  SCHOTTKY Di 2       MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 TO      TO-3P(Q)             MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+Inductor            L    L                   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SMD     SMD Power Inductors  MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+                                                                                                                         2018    2518                 MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+IR2302              IC   DIP8                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 DSC     R8DIL                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                         SOL     SOP-8                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+                                                                                                                         SOP     8                    DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+IRLML6344TR         TR   NMOS                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SOT     SOT-23               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+IRLR8726PbF         TR   NMOS                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SML     TO252AA              MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+JTAG_CON            JTAG 14P-JTAG            MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 USER    BOX-14P-JTAG         MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+L3G4200D            IC   QFN16               Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}                     LGA     L3G4200D             MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+LATBT66B            LED  LATBT66B            MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SOP     LATBT66B             MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+LM324               OP   OPAMP4              DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DIP     14DIL                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+LMC555              IC   DIP8                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SKDIP   DIP8                 MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+M51957              IC   M51957              MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SOP8    SOP-8                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+MBR3040FCT          D    SCHOTTKY Di 2       MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 DSC     TO220                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+MCWI03              U    Zetuenn DCDC        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SIP     MCWI03               MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+NPNTRAN             TR   NPNTRAN             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     TO92                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+PCA9306             IC   DIP8                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 DIP     PCA9306 Module       MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+pi16_C              C    CC                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     pi16 condens         MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+PNPTRAN             TR   PNPTRAN             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     TO92                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+PolouMotorDriver CS MD   PolouMotorDriver CS MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 USER    PolouMotorDriver CS  MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+Power_3_L           CN   3P                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     CONN_SIL_3_L         MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+R                   R    R                   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 1608    1608                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SBRT25U80SLP        SBD  SBD                                                                                             POWERDI POWERDI5060-8        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+ShortPad            S    ShortPad            MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 PD2     ShortPAd             MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+SW1                 SW   SW_1X2              KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SKDIP   UL94V-0              MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+TLP2105             PC   TLP2105             MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SOP-8   SOP-8                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+TSR065              VR   RV                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SKDIP   TSR-065              MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+Tuber C             C    CC                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 TUBE    Tuber P12.5 * 26     MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+USB DIPKit          USB  4P                  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   A       USB DIPkit           MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+
+Library : ｄｃｄｃ    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP}
+
+
+=======================================================================
+
+Component                 Ref Scm Symbol  Scm Library                                          Package Pcb Symbol Pcb Library
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DCDC hole.ver(pin tekito) V   ＤＣＤＣ    hagi {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP} USER    DCDC hole  hagi {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP}
+OKL-T/6-W12               P   OKL-T/6-W12 hagi {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP} DIL     DCDC qfp   hagi {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP}
+
+Library : User    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+
+
+========================================================================
+
+Component       Ref  Scm Symbol   Scm Library                                                                 Package Pcb Symbol      Pcb Library
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+トランジスタ    U    トランジスタ User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    トランジスタ    User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+ヒューズ        BR   ヒューズ     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    ヒューズ        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+ジャイロ        C    ジャイロ     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    ジャイロ        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+縦抵抗          U    縦抵抗       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    縦抵抗          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+縦抵抗f         R    縦抵抗       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    縦抵抗f         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+抵抗            BR   抵抗         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    TEI.K           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+抵抗f           R    抵抗f        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    抵抗f           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+電源            BR   電源         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    電源            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+2SK3812         Q    NMOS         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 TO-263  TO-263          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+3pin            Q    3pin         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    3pin            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+4p              PL   4p           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    4p              User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+5pin            PL   5pin         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    5pin            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+5pinf           BR   5pin         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    5pinf           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+6pin            CONN 6pin         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    6pin            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+6pin(t)         BR   6pin(t)      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    6pin(t)         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+6pin(t)f        BR   6pin(t)      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    6pin(t)f        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+6pinf           CONN 6pin         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    6pinf           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+8pin            CONN 8pin         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    8pin            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+8pinf           CONN 8pin         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    8pinf           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+10!             T    10P          MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 USER    10!             User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+14              Q    14pin2       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   DSC     14pin2          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+14p             SK   14p          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DIL     14p             User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+14p1            BR   14p1         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    14p1            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+16p             CONN 16p          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    16p             User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+25PK100MEFC5X11 CC   2pi          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    25PK100MEFC5X11 User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+26pin           C    26pin        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    26pin           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+26pinf          C    26pin        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    26pinf          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+104             U    104          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   DIL     104
+104a            T    104a         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    104a            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+104b            RL   104b         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    104b            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+144             BR   14p          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER    144             User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+AR              L    AR           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    AR              User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+AVR/2           IC   AVR/2        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    AVR/2           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+BOX-10P         CN   10P          MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 USER    BOX-10P         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+CAN             U    CAN          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    CAN             User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+CAN2            CONN cAN          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    CAN2            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+CANmodule       U    16P          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    caNmodule       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+CONDENSA        U    TA7805S      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    a               User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+DENKON          U    DENKON       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   DIL     DENKON          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+dippu           BR   dippu        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    dippu           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+FET(N)          J    Nチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    FET(N)          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+FET(N)f         J    Nチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    FET(N)f         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+FET(P)          J    Pチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    FET(P)          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+FET(P)f         J    Pチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    FET(P)f         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+FOD817          FS   foto         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   DIL     foto            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+maru            U    maru         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   DIL     maru            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+MCP2515         FS   MCp2515      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   uSER    MCP2515         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+mcp2551         FS   MCP2551      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    mcp2551         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+Nチャンネル     D    Nチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    Nチャンネル     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+Nチャンネルf    D    Nチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    Nチャンネルf    User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+Pチャンネル     D    Pチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    Pチャンネル     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+Pチャンネルf    D    Pチャンネル  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    Pチャンネルf    User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+PS2010R         D    D            DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DO-15   DO-15           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+R               R    R            KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER    R               User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+riset           SK   riset        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    reset           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+SGR-2P_lay      CN   2P           KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER    SGR-2P_lay      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+SH7144          CONN SH7144       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    SH7144          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+sh7144 n        BR   SH7144 n     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    SH7144 n        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+SW              SW   SW           User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    SW              User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TA78L05f        T    TA78L05f     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    TA78L05f        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TA7805S         U    TA7805S      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    TA7805S         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TA7805S(t)      FS   TA7805S(t)   User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    TA7805S(t)      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TLP             UA   TLP          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    TLP             User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TLP124          IC   TLP_124      User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   MFSOP6  MFSOP6          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TLP250          ZD   TLP250       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    TLP250          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TLP250f         ZD   TLP250       User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    TLP250f         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+VNH             IC   VNH          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    VNH             User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+VNHd            VR   VNHd         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   USER    VNHd            User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+
+Library : モータードライバ    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=======================================================================================
+
+Component    Ref Scm Symbol   Scm Library                                                 Package         Pcb Symbol      Pcb Library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TA8429HQ     U   TA8429HQ     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   USER            TA8429HQ        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+VNH2SP30TR-E U   VNH2SP30TR-E KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} MultiPowerSO-30 MultiPowerSO-30 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : デジタル回路    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+===================================================================================
+
+Component Ref Scm Symbol Scm Library                                                 Package Pcb Symbol Pcb Library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FXMA108   IC  DIP-20     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} DIP-20P DIP-20P    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : トランジスタ・FET    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+========================================================================================
+
+Component   Ref Scm Symbol Scm Library                                                 Package  Pcb Symbol Pcb Library
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2N7002      Q   NMOS       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SOT-23   SOT-23     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+2SC2412K    T   NPN        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SOT-346  SOT-346    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+2SC2655     T   NPN        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} TO-92MOD TO-92      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+2SK3812     Q   NMOS       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} TO-263   TO-263     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+BSS138      Q   NMOS       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SOT-23   SOT-23     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+IRLB3813PbF Q   NMOS       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} TO-220AB TO-220     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+MMBT3904    T   NPN        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SOT-23   SOT-23     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : オペアンプ    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=================================================================================
+
+Component Ref Scm Symbol Scm Library                                                                 Package Pcb Symbol Pcb Library
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LM358MX   IC  SOP-8      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SOP-8   SOP-8      MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+NJM4580C  IC  OPAMP4     DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SOP-8   SOP-8      MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+
+Library : コンデンサ    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=================================================================================
+
+Component           Ref Scm Symbol Scm Library                                                 Package Pcb Symbol          Pcb Library
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1EUTCX101M          CC  CC         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    1EUTCX101M          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+25PK100MEFC5X11     CC  CC         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    25PK100MEFC5X11     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+25PK100MEFC5X11_lay CC  CC         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    25PK100MEFC5X11_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+C                   C   C          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    C                   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+C-chip              C   C          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} 1608    1608                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+                                                                                               2012    2012                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+                                                                                               3225    3225                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CC                  CC  CC         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    CC                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+RD20F107Z0JH5L      C   C          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    C                   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : コネクタ    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+===============================================================================
+
+Component  Ref Scm Symbol Scm Library                                                 Package Pcb Symbol Pcb Library
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BOX-6P     CH  6P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    BOX-6P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BOX-10P    CN  10P        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts} USER    BOX-10P    User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+BOX-14P    CN  14P        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    BOX-14P    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BOX-20P    CN  20P        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    BOX-20P    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BOX-26P    CN  26P        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    BOX-26P    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Dsub-9     CN  9P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    Dsub-9     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+PC250      CH  1P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    PC250      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+PCFS2508   CH  1P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    PCFS2508   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-2P     CN  2P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-2P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-2P_lay CN  2P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-2P_lay User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+SGR-3P     CN  3P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-3P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-3P_lay CN  3P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-3P_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-4P     CN  4P         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   USER    SGR-4P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-4P_lay CN  4P         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   USER    SGR-4P_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-5P     CN  5P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-5P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-5P_lay CN  5P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-5P_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-6P     CN  6P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-6P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-6P_lay CN  6P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-6P_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-7P     CN  7P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-7P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-8P     CN  8P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-8P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-8P_lay CN  8P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-8P_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+SGR-9P     CN  9P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    SGR-9P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : ピンヘッダ・ソケット    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+===========================================================================================
+
+Component        Ref Scm Symbol Scm Library                                                 Package Pcb Symbol       Pcb Library
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pinheader-3P_L   CN  3P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    pinheader-3P_L   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+pinheader-8P_L   CN  8P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    pinheader-8P_L   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+pinheader2_5P_L  CH  10P        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts} USER    pinheader2_5P_L  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+pinheader2_7P_L  CH  14P        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    pinheader2_7P_L  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+pinheader2_10P_L CH  20P        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} uSER    pinheader2_10P_L KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : フォトカプラ・受光素子    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=============================================================================================
+
+Component Ref Scm Symbol            Scm Library                                                 Package Pcb Symbol Pcb Library
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+S7136     U   S7136                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    S7136      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TLP124    PC  Photo coupler(Tr)     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} MFSOP6  MFSOP6     User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+TLP291    PC  Photo coupler(Tr)     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SO4     SO4        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TLP624-2  PC  Photo coupler（Tr）-2 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} DIP     DIP-8      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : スイッチ    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+===============================================================================
+
+Component         Ref Scm Symbol Scm Library                                                 Package Pcb Symbol         Pcb Library
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DIPSW-4CN         SW  DIPSW-4CN  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} DIP     DIP_SW4ch_S        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+                                                                                             SOP     EHS                MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+                                                                                             USER    DIPSW-4CN          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+DTS-24N           SW  PUSH-NO    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    DTS-2              KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Tact switch_small SW  PUSH-NO    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    Tact switch _small KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Toggle switch     SW  SW_1X2     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    Toggle switc       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Toggle switch_2   SW  SW_1X4     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    Toggle switch_2    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : ダイオード    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=================================================================================
+
+Component     Ref Scm Symbol    Scm Library                                                                 Package     Pcb Symbol    Pcb Library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1N4148        D   d             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DO-35       do-35         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+1SS352        D   d             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SOD-323     sod-323       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BZX584C3V9    ZD  ZENERD        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SOD523      SOD-523       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+CRD           D   CRD           KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        DIOD          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+D             D   D             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} USER        DIOD          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+ER504         D   DIODE         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        DO-201AD      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+ES2G          D   D             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DO-214AA    DO-214AA      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+LED           LED LED           KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 1608        1608          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+                                                                                                            USER        LED           KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+                                                                                                            OSXX120641E OSXX120641E   MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+NSI45030AT1G  D   CRD           KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SOD-123     SOD-123       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+PS2010R       D   D             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DO-15       DO-15         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+S9032-2       D   S9032-2       MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}                 SOIC        SOIC-6        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+SLC-F219CA-T1 LED SLC-F219CA-T1 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        SLC-F219CA-T1 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+ZENERD        D   ZENERD        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        DIOD          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : マイコン関連    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+===================================================================================
+
+Component       Ref Scm Symbol      Scm Library                                                 Package  Pcb Symbol  Pcb Library
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AE-XBEE-USB     U   DIP-20          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER     AE-XBEE-USB KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+AKI-7144        U   AKI-7144        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER     AKI-7144    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+AMD3202AN       IC  DIP-16          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} DIP-16   DIP-16      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+ATmega164P-20PU U   ATmega164P-20PU KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} PDIP-40P pDIP-40P    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+ATMEGA168P-20PU U   DIP-28P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} DIP      DIP-28P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+CY8C29466-24PXI U   DIP-28P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} DIP-28P  DIP-28P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TCM809JVLB713   U   resETIC         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SC-70    SC-70       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TCM809RVNB      U   RESETIC         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SOT-23   SOT-23      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Xbee            U   XBee            KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER     XBee        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : 三端子レギュレータ    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=========================================================================================
+
+Component     Ref Scm Symbol               Scm Library                                                                 Package     Pcb Symbol                   Pcb Library
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AZ1086H-3.3   U   three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SOT-223     sot-223                      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+AZ1086H-5.0   U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SOT-223     sot-223                      KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+NJM78L05UA    U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SOT-89      SOT-89                       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+NJM2391DL1-05 U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 TO-252-3-L1 TO-252-3-L1                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+NJM2391DL1-33 U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 TO-252-3-L1 TO-252-3-L1                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TA78L05       U   VREG                     DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SOP         HSOP3                        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+TA7805S       U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        Three-terminal regulator     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TA7805S_lay   U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        Three-terminal regulator_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TA48033S      U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        Three-terminal regulator     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+TA48033S_lay  U   Three-terminal regulator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 USER        Three-terminal regulator_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : 抵抗・コイル    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+===================================================================================
+
+Component Ref Scm Symbol Scm Library                                                 Package Pcb Symbol Pcb Library
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+R         R   R          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    R          User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+R-1608    R   R          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} 1608    1608       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+                                                                                     6432    6432       MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+RV        RV  RV         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    RV         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+R_S5      R   R_S5       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SIL     RSIL5      DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+R_S6      R   R_S6       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SIP     RSIL6      DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+R_S8      R   R_S8       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SIL     RSIL9      DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+R_st      R   R          KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    R_st       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : 電源    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+===========================================================================
+
+Component    Ref  Scm Symbol Scm Library                                                 Package Pcb Symbol   Pcb Library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ATC-FUSE     FS   FUSE       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} ATC     ATC-FUSE     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+ATC-FUSE_lay FUSE FUSE       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} ATC     ATC-FUSE_lay KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BATTERY      PW   BATTERY    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    POWER        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BATTERY+     PW   +V         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    hole         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BATTERY+_2   PW   +V         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    PC250        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BATTERY-     PW   GND        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    hole         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+BATTERY-_2   PW   GND        KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    PCFS2508     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+NJW4131      IC   HSOP-8     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} HSOP-8  HSOP-8       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : 発振子    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=============================================================================
+
+Component         Ref  Scm Symbol        Scm Library                                                 Package Pcb Symbol Pcb Library
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ceramic resonator XTAL ceramic resonator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} CSTLS_X CSTLS_X    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+CSTCE20M0V51-R0   XTAL ceramic resonator KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} CSTCE_V CSTCE_V    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : 放熱器    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+=============================================================================
+
+Component     Ref Scm Symbol Scm Library                                                 Package Pcb Symbol    Pcb Library
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11PB015-01025 H   1P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    11PB015-01025 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+16PB017       HS  2P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    16PB017       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+30PC030-01030 H   2P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    30PC030-01030 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : CANモジュール    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+====================================================================================
+
+Component Ref Scm Symbol Scm Library                                                 Package Pcb Symbol Pcb Library
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MCP2515   U   SOIC-18    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SOIC    SOIC-18    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+MCP2551   U   SOIC-8     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} SOIC-8  SOIC-8     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : KRP    {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+
+==========================================================================
+
+Component         Ref Scm Symbol Scm Library                                                 Package Pcb Symbol Pcb Library
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AJ-1780           CN  5P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    AJ-1780    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+AVRforKRP         CH  10P        MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts} USER    BOX-10P    User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+CANmodule         U   16P        User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   USER    caNmodule  User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}
+Crimping terminal CN  1P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    hole       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+MJ-4PP-9          CN  4P         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   USER    MJ-4PP-9   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Rotary encoder    U   4P         User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}   USER    SGR-4P     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+ST-005-G          CN  3P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    ST-005-G   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+
+Library : Micon    {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+
+
+======================================================================
+
+Component             Ref  Scm Symbol Scm Library                                                 Package Pcb Symbol                Pcb Library
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FA-238                XTAL XTAL       KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} USER    FA-238                    MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts}
+MotorSystemConnection CN   5P         KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib} CN      SGR-5P                    KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+                                                                                                  CN_L    SGR-5P_lay                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+R5F562TxBxFM          IC   QFP64      Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}     QFP     QFP64                     Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+R5F563TxxxFL          U    QFP48      Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}     QFP     QFP48                     Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+                                                                                                  SKDIP   Daisen Q048               Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+                                                                                                  SKDIP2  ET-PCB LQFP48             Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+R5F5110xxxFM          IC   QFP64      Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}     QFP     QFP64                     Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+R5F5210xxxFP          U    QFP100     Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}     QFP     QFP100                    Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+R5F5621xxxFP          U    QFP100     Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}     QFP     QFP100                    Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+RPi2_GPIO             IC   RPi2_GPIO  MyParts {C:\Users\NEC-PCuser\Documents\DesignSpark\MyParts} DSC     RPi2_GPIO                 Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+                                                                                                  USER2   RPi2_GPIO add comportment Micon {C:\Users\NEC-PCuser\Documents\DesignSpark\Micon}
+
+Library : DesignSpark    {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+
+
+==========================================================================================
+
+Component          Ref  Scm Symbol         Scm Library                                                                 Package Pcb Symbol    Pcb Library
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
++V                 REF  +V                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+-V                 REF  -V                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+0V                 REF  0V                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+7SEG               DISP 7SEG2              DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DIP     LED10DIL300   DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Battery            BAT  Battery            KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 MISC    Battery       DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Capacitor          C    C                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     DISC03        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       0402    0402          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       0603    0603          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       0805    0805          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       1206    1206          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       1210    1210          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Capacritor_Pol     C    CP                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSCV    CAPP3V        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       CAPP1V  CAPP1V        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       CAPP4V  CAPP4V        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       CAPP5V  CAPP5V        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       CAPP6V  CAPP6V        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CONN_D9            CONN 9PIN               DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     D9F           DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CONN_D9_RA         CONN 9PIN               DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     D990F         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CONN_DIL_26        PL   13P                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     26            DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CONN_SIL_2         PL   2P                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     2             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CONN_SIL_3         PL   3P                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     3             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CONN_SIL_4         PL   4P                 User {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\User}                   DSC     4             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+CONN_SIL_5         PL   5P                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     5             DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Diode              D    D                  DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     DIOD03        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       MISC    DIOD04        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Diode_zener        ZD   ZENERD             KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     DIOD03        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       MISC    DIOD04        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+DS_A3_Template_r00 SCH  DS_A3_Template_r00 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+DS_A4_Template_r00 SCH  DS_A4_Template_r00 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+EARTH              REF  EARTH              KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+FUSE               FS   FUSE               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     FUSE          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       MISC    FUSE1         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+GND                REF  GND                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Inductor           L    L                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SM      0805          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSC     DISC04L       DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       1206    1206          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       1210    1210          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+LED                LED  LED                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     LEDT175       DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       MISC    LEDT1         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+NFET               Q    NFET               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SM      SOT23         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSC     TO18          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+NMOS               Q    NMOS               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     TO220         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+NPNTRAN            Q    NPNTRAN            DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SM      SOT23         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSC     TO18          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+PFET               Q    PFET               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SM      SOT23         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSC     TO92          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+PMOS               Q    PMOS               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     TO220         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+PNPTRAN            Q    PNPTRAN            DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SM      SOT23         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSC     TO39          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Pushbutton         SW   PUSH-NO            KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DISC    FSM2JH        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+RA_2POT            R    RVA                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     POT5H         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+RA_POT             R    RVA                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     POT4H         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSCV    POT4V         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+RA_PRE             R    RPA                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     POT1H         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSCV    POT1V         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+RA_PREC            R    RPA                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     POT2H         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSCV    POT2V         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+RA_PREM            R    RPA                DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     POT3H         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSCV    POT3V         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Relay type 47      RL   Relay Coil         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     Relay type 47 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Relay type 53      RL   Relay Coil         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} DSC     Relay type 53 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Resistor           R    R                  KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SM      0805          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSC     DISC04        DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Resistor2          R    RA                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SM      0805          DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+                                                                                                                       DSC     DISC04A       DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+Vcc                REF  +V                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Vdd                REF  +V                 KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}
+Vss                REF  0V                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+XTAL               XTAL XTAL               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 DSC     HC18U         DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+
+Library : ltspice    {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+
+
+======================================================================================
+
+Component                      Ref      Scm Symbol         Scm Library                                                                 Package Pcb Symbol Pcb Library
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AC Current Source              I        ISource            XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+AC dB Probe                    Probe    VProbe             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+AC Phase Probe                 Probe    VProbe             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+AC Voltage Source              V        VSource            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Amplifier (subcircuit)         X        Amp                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+AND2 (subcircuit)              X        AND 2              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+AND3 (subcircuit)              X        AND 3              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Arbitrary Current Source       B        ISource            XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+Arbitrary Voltage Source       B        VSource            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Buffer (subcircuit)            X        Buf                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Capacitor                      C        Capacitor          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Capacitor (polar)              Y        CP                 DesignSpark {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Capacitor (subcircuit)         X        Capacitor          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Capacitor (xtal)               Y        XTAL               KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SPICE
+Comparator                     X        Opamp              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Comparator - diff out latched  X        Opamp_d_o_l        ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Comparator with Ground         X        Opamp_g            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Current Controlled Current Src F        CCCS               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Current Controlled Switch      W        CSwitch            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Current Controlled Voltage Src H        CCVS               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Current Probe                  Probe    IProbe             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Current Pulse Generator        I        ISource            XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+Current Sine Generator         I        ISource            XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+D-type Flip-Flop (subcircuit)  U        DType              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Differential Voltage Probe     Probe    DProbe             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_and2                   A        AND 2              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_and3                   A        AND 3              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_and4                   A        AND 4              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_buf                    A        Buf                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_dflop                  A        dtff               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_diffschmtbuf           A        diffschmtbuf       ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_diffschmtinv           A        diffschmtinv       ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_inv                    A        INVERTER           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_nand2                  A        NAND 2             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_nand3                  A        NAND 3             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_nand4                  A        NAND 4             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_nor2                   A        NOR 2              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_nor3                   A        NOR 3              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_nor4                   A        NOR 4              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_or2                    A        OR 2               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_or3                    A        OR 3               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_or4                    A        OR 4               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_schmtbuf               A        schmtbuf           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_schmtinv               A        schmtinv           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_srflop                 A        srff               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_xnor2                  A        XNOR 2             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_xnor3                  A        XNOR 3             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_xor2                   A        XOR 2              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+digital_xor3                   A        XOR 3              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Diode                          D        Diode              KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SPICE
+EPOLY                          E        EPOLY2             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+EPOLY2                         E        EFUNC2             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Fixed Current Source           I        ISource            XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+Fixed Voltage Source           V        VSource            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Ground                         Ground   Ground             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Ideal Inductor                 L        Inductor           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Ideal Transformer (1p 1s)      TX       Transformer_1_1    XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+Ideal Transformer (1p 2s)      TX       Transformer_1_2    XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+Ideal Transformer (2p 2s)      TX       Transformer_2_2    XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+Ideal Transformer (3p 3s)      TX       Transformer_3_3    XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}      SPICE
+IGBT                           Q        IGBT               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Inductor (Vertical)            L        LVERT              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Initial Condition              Ic       Condition          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Instrumentation Amp (7 pin)    U        Instrument Amp 7   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Instrumentation Amp (8 pin)    U        Instrument Amp 8   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Inverter (subcircuit)          X        INVERTER           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+KCORE                          K        KCORE              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+KCORE1                         K        KCORE 1            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+KCORE2                         K        KCORE 2            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+KCORE3                         K        KCORE 3            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+LT1184F                        X        LT1184F            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+MESFET Transistor              Z        mesfet             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+modulate                       A        modulate           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+modulate2                      A        modulate2          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Module Port                    Port     Module Port        ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+N-Channel JFET                 J        N-channel          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+N-Channel therm 5 (subcircuit) U        N-Channel Therm 5  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NAND2 (subcircuit)             X        NAND 2             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NAND3 (subcircuit)             X        NAND 3             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NAND4 (subcircuit)             X        NAND 4             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NMOS (3 term)                  M        NMOS3              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NMOS (Monolithic)              M        NMOS4              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Nodeset                        ns       Condition          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NOR2 (subcircuit)              X        NOR 2              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NOR3 (subcircuit)              X        NOR 3              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+NOR4 (subcircuit)              X        NOR 4              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Npn                            Q        NPN                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SPICE
+Npn Darlington                 Q        NPNdarl            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Opamp                          X        Opamp              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Opamp (6 term with comp)       X        Opamp_c            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Opamp (6 term with enable)     X        Opamp_e            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Opamp (6 term)                 X        Opamp_g            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Opamp (7 terminal)             X        Opamp_7            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Opamp (with Output Supply)     X        Opamp_OS           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+OR2 (subcircuit)               X        OR 2               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+OR3 (subcircuit)               X        OR 3               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+OR4 (subcircuit)               X        OR 4               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+P-Channel JFET                 J        P-channel          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+P-Channel therm 5 (subcircuit) U        P-Channel Therm 5  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+phidet                         A        phidet             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+PMOS (3 term)                  M        PMOS3              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+PMOS (Monolithic)              M        PMOS4              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Pnp                            Q        PNP                KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}                 SPICE
+Pnp Darlington                 Q        PNPdarl            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Power Rail (negative)          V        POWRAIL-           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Power Rail (positive)          V        POWRAIL+           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Power Supply                   V        VSource            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Pulse Generator                V        VPulse             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Regulator - 3 term adjustable  X        Reg Adj            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Regulator - 3 terminal         X        Reg                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Regulator - 6 terminal         U        Reg 6              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Regulator - bypass + adj       U        Reg BA             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Regulator - shutdown + bypass  U        Reg SB             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Regulator - shutdown and adj   U        Reg SA             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Resistor (Box Shape)           R        Resistor Box       ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Resistor (Z shape)             R        Resistor Z         ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+samplehold                     A        sample             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Schottky                       D        Schottky           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Simulator Control              K        SimControl         ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Sine Generator                 V        VSine              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Terminal                       Terminal Terminal           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Terminal (Small)               Terminal SmallTerm          ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Thermal Network - 2 term       TH       Therm Network      ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Timer IC mixed-mode            X        X555               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Transmission Line (Lossless)   T        Transmission Line  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Transmission Line (Lossy)      O        Transmission Line  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Tri-state buffer               X        Buffer (tri-state) ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Uniform RC Line                U        urc                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Varicap                        X        Varicap            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+varistor                       A        varistor           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Voltage Controlled Current Src G        VCCS               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Voltage Controlled Switch      S        Switch             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Voltage Controlled Voltage Src E        VCVS               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Voltage Probe                  Probe    VProbe             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Voltage Switch (Subcircuit)    XS       Switch             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+XNOR2 (subcircuit)             X        XNOR 2             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+XOR2 (subcircuit)              X        XOR 2              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+Zener Diode                    D        Zener              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}     SPICE
+
+Library : XSpice    {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}
+
+
+=====================================================================================
+
+Component                      Ref      Scm Symbol              Scm Library                                                             Package Pcb Symbol Pcb Library
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AC Voltage Source              V        VSource                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+AD Bridge                      U        AtoD                    XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Amplifier (subcircuit)         X        Amp                     ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Analog switch                  X        ASwitch                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+AND2                           U        AND 2                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+AND3                           U        AND 3                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Arbitrary Current Source       B        ISource                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Source(V V)          ARB      ARB_IN_1_0_OUT_V        XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Source(V2 I1 Diff I) ARB      ARB_IN_2_1_OUT_DIFF_I   XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Source(V2 I1 Diff V) ARB      ARB_IN_2_1_OUT_DIFF_V   XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Source(V2 I1 I)      ARB      ARB_IN_2_1_OUT_I        XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Source(V2 I1 V)      ARB      ARB_IN_2_1_OUT_V        XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Source(V2 V)         ARB      ARB_IN_2_0_OUT_V        XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Source(V4 V)         ARB      ARB_IN_4_0_OUT_V        XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Arbitrary Voltage Source       B        VSource                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Buffer                         U        Buf                     ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Capacitor                      C        Capacitor               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Capacitor (Non-Linear)         C        Capacitor               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Comparator                     X        Opamp                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Comparator - diff out latched  X        Opamp_d_o_l             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Comparator with Ground         X        Opamp_g                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Current Controlled Current Src F        CCCS                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Current Controlled Voltage Src H        CCVS                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Current Probe                  Probe    IProbe                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Current Pulse Generator        I        ISource                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Current Sine Generator         I        ISource                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+D Latch (primative)            U        D Latch primative       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+D-type Flip-Flop               U        DType                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+D-type Flip-Flop (primative)   U        DType primative         XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+D-type Flip-Flop (simple)      U        DType Simple            XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+DA Bridge                      U        DtoA                    XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+dB Probe                       Probe    VProbe                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Differential Voltage Probe     Probe    DProbe                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Digital Capacitor              C        Capacitor               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Digital Delay                  U        DigDelay                XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Frequency Divider      U        DigFreqDiv              XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Ground                 GND      DigGround               XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Initial Condition      DigInit  DigInit                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Pull-Down              U        DigPullDown             XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Pull-Up                U        DigPullUp               XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Pulse                  U        DigPulse                XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Pulse (Open Emitter)   U        DigPulseOpen            XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital Resistor               R        Resistor Box            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Digital Source                 U        DigSource               XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Digital VCC                    VCC      DigVCC                  XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Diode                          D        Diode                   KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}             SPICE
+Fixed Current Source           I        ISource                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Fixed Voltage Source           V        VSource                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Frequency Divider              U        FreqDiv                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Generic AND 4                  U        AND 4                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Generic NAND 4                 U        NAND 4                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Generic NOR 4                  U        NOR 4                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Generic OR 4                   U        OR 4                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Ground                         Ground   Ground                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+HC73                           U        74xx73                  XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+HC139                          U        74xx139                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+HC164                          U        74xx164                 XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+HC4520                         U        4520                    XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Ideal Inductor                 L        Inductor                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Ideal Transformer (1p 1s)      TX       Transformer_1_1         XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Ideal Transformer (1p 2s)      TX       Transformer_1_2         XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Ideal Transformer (2p 2s)      TX       Transformer_2_2         XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Ideal Transformer (3p 3s)      TX       Transformer_3_3         XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+IGBT                           Q        IGBT                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Inductor (Non-Linear)          L        Inductor NL             XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Initial Condition              Ic       Condition               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Instrumentation Amp (7 pin)    U        Instrument Amp 7        ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Instrumentation Amp (8 pin)    U        Instrument Amp 8        ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Inverter                       U        INVERTER                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Laplace Transfer (DiffI DiffI) LAP      Laplace (DiffI DiffI)   XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (DiffI DiffV) LAP      Laplace (DiffI DiffV)   XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (DiffI I)     LAP      Laplace (DiffI I)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (DiffI V)     LAP      Laplace (DiffI V)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (DiffV DiffI) LAP      Laplace (DiffV DiffI)   XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (DiffV DiffV) LAP      Laplace (DiffV DiffV)   XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (DiffV I)     LAP      Laplace (DiffV I)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (DiffV V)     LAP      Laplace (DiffV V)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (I DiffI)     LAP      Laplace (I DiffI)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (I DiffV)     LAP      Laplace (I DiffV)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (I I)         LAP      Laplace (I I)           XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (I V)         LAP      Laplace (I V)           XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (V DiffI)     LAP      Laplace (V DiffI)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (V DiffV)     LAP      Laplace (V DiffV)       XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (V I)         LAP      Laplace (V I)           XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Laplace Transfer (V V)         LAP      Laplace (V V)           XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+LS73                           U        74xx73                  XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Module Port                    Port     Module Port             ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+N-channel 3 term bulk to VSS   Q        N-channel 3 bulk to VSS XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+N-Channel dual gate            Q        N-Channel Dual Gate     XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+N-Channel JFET                 Q        N-channel               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+N-Channel therm 5 pin          U        N-Channel Therm 5       ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+NAND2                          U        NAND 2                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+NAND3                          U        NAND 3                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+NAND4                          U        NAND 4                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+NMOS (3 term)                  Q        NMOS3                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Nmos - 4 term IC               Q        N-channel 4             XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Nodeset                        ns       Condition               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+NOR2                           U        NOR 2                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+NOR3                           U        NOR 3                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+NOR4                           U        NOR 4                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Npn                            Q        NPN                     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}             SPICE
+Npn Darlington                 Q        NPNdarl                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Opamp                          X        Opamp                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Opamp (6 term with comp)       X        Opamp_c                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Opamp (6 term with enable)     X        Opamp_e                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Opamp (6 term)                 X        Opamp_g                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Opamp (7 terminal)             X        Opamp_7                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Opamp (with Output Supply)     X        Opamp_OS                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+OPT101                         U        OPT101                  XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+OPT102                         U        OPT102                  XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+OR2                            U        OR 2                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+OR3                            U        OR 3                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+OR4                            U        OR 4                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+P-Channel 3 term bulk to VDD   Q        P-channel 3 bulk to VDD XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+P-Channel JFET                 Q        P-channel               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+P-Channel therm 5 pin          U        P-Channel Therm 5       ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Phase Probe                    Probe    VProbe                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+PMOS (3 term)                  Q        PMOS3                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Pmos - 4 term IC               Q        P-channel 4             XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Pnp                            Q        PNP                     KRP {C:\Users\NEC-PCuser\Documents\DesignSpark\KRP\PCB_lib}             SPICE
+Pnp Darlington                 Q        PNPdarl                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Potentiometer                  VR       Potentiometer           XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Power Conv                     U        powerconv               XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Power Supply                   V        VSource                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+pseudo_random                  U        Random                  XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Pulse Generator                V        VPulse                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Regulator - 3 term adjustable  X        Reg Adj                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Regulator - 3 terminal         X        Reg                     ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Regulator - 6 terminal         U        Reg 6                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Regulator - bypass + adj       U        Reg BA                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Regulator - shutdown + bypass  U        Reg SB                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Regulator - shutdown and adj   U        Reg SA                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Resistor (Box Shape)           R        Resistor Box            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Resistor (Non-Linear)          R        Resistor Box            ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Resistor (Z shape)             R        Resistor Z              ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Schmitt Inverter               U        Inverter (Schmitt)      XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Schottky                       D        Schottky                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Schottky - dual                D        Schottky dual           XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Sine Generator                 V        VSine                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Terminal                       Terminal Terminal                ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Terminal (Small)               Terminal SmallTerm               ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Thermal Network - 2 term       TH       Therm Network           ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Toggle Flip-Flop               U        Flip-Flop (Toggle)      XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Transient Supressor            VAR      Trans Supress           XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Transmission Line (Lossless)   T        Transmission Line       ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Transmission Line (Lossy)      O        Transmission Line       ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Tri-state buffer               U        Buffer (tri-state)      ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+UAF42                          U        UAF42                   XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+UC3842                         U        UC3842                  XSpice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default}  SPICE
+Varicap                        D        Varicap                 ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Voltage Controlled Current Src G        VCCS                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Voltage Controlled Switch      S        Switch                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Voltage Controlled Voltage Src E        VCVS                    ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Voltage Probe                  Probe    VProbe                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Voltage Switch (Subcircuit)    S        Switch                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+XNOR2                          U        XNOR 2                  ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+XOR2                           U        XOR 2                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+Zener Diode                    D        Zener                   ltspice {C:\Users\Public\Documents\DesignSpark PCB 7.1\Library\Default} SPICE
+
+End Of Report.

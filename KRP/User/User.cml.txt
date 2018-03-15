@@ -1,0 +1,37 @@
+Library Report
+--------------
+
+Report File    : C:\Users\Public\Documents\DesignSpark PCB 6.0\Library\User\User.cml.txt
+Report Written : Monday, February 10, 2014
+
+
+Component libraries (*.cml)
+
+
+=============================
+
+
+Library : User    {C:\Users\Public\Documents\DesignSpark PCB 6.0\Library\User}
+
+
+================================================================================
+
+Component        Ref  Scm Symbol  Scm Library  Package  Pcb Symbol       Pcb Library
+------------------------------------------------------------------------------------
+ècíÔçR           U    ècíÔçR      User         USER     ècíÔçR           User
+2SK3812          Q    NMOS        DesignSpark  TO-263   TO-263           User
+25PK100MEFC5X11  CC   2pi         User         USER     25PK100MEFC5X11  User
+104              U    104         User         DIL      104              User
+AR               U    AR          User         USER     AR               User
+BOX-10P          CN   10P         DesignSpark  USER     BOX-10P          User
+CAN              C    CAN         User         DSC      CAN              User
+CANmodule        U    16P         DesignSpark  USER     caNmodule        User
+CONDENSA         U    TA7805S     User         USER     a                User
+maru             U    maru        User         DIL      maru             User
+PS2010R          D    D           DesignSpark  DO-15    DO-15            User
+R                R    R           DesignSpark  USER     R                User
+SGR-2P_lay       CN   2P          DesignSpark  USER     SGR-2P_lay       User
+TA7805S          U    TA7805S     User         USER     TA7805S          User
+TLP124           IC   TLP_124     User         MFSOP6   MFSOP6           User
+
+End Of Report.

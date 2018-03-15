@@ -1,0 +1,8 @@
+ATC-FUSE||#ATC=4||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+ATC-FUSE_lay||#ATC=2||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+BATTERY||#USER=2||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+BATTERY+||#USER=1||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part Number=+||@Other Part Number=||@3D Package=||@Height=
+BATTERY+_2||#USER=2||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part Number=+||@Other Part Number=||@3D Package=||@Height=
+BATTERY-||#USER=1||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part Number=-||@Other Part Number=||@3D Package=||@Height=
+BATTERY-_2||#USER=2||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part Number=-||@Other Part Number=||@3D Package=||@Height=
+NJW4131||#HSOP-8=9||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
