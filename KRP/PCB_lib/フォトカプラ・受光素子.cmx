@@ -1,9 +1,10 @@
-ACPL244||#SOIC=16||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
-LBR-127HLD||#DIL=4||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
-S7136||#USER=4||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part name=S7136||@Other Part Number=||@3D Package=||@Height=
-TLP124||#MFSOP6=4||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part Number=TLP124||@Other Part Number=||@3D Package=||@Height=
-TLP152||#SOP=5||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
-TLP291||#SO4=4||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part@Number=TLP291||@Other Part Number=||@3D Package=||@Height=
-TLP624-2||#DIP=8||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Photo coupler=TLP624-2||@Other Part Number=||@3D Package=||@Height=
-TLP2355||#SO6=5||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
-TLP7820||#SMD=8||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=TOSHIBA||@Manufacturer_Part_Number=TLP7820||@Other Part Number=||@3D Package=||@Height=
+ACPL244||#SOIC=16=SO16||@[Description]=optocoupler||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+LBR-127HLD||#DIL=4=LBR-127HLD||@[Description]=PhotoReflector||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
+S7136||#USER=4=S7136||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part name=S7136||@Other Part Number=||@3D Package=||@Height=
+TLP124||#MFSOP6=4=MFSOP6||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part Number=TLP124||@Other Part Number=||@3D Package=||@Height=
+TLP152||#SOP=5=11-4L1S||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+TLP291||#SO4=4=SO4||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Part@Number=TLP291||@Other Part Number=||@3D Package=||@Height=
+TLP291-4||#SOIC=16=SO16||@[Description]=optocoupler||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
+TLP624-2||#DIP=8=DIP-8||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Photo coupler=TLP624-2||@Other Part Number=||@3D Package=||@Height=
+TLP2355||#SO6=5=SO-6 5pin||@[Description]=PhotoCpupler||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
+TLP7820||#SMD=8=11-6B1A||@[Description]=IsolationAmp||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=TOSHIBA||@Manufacturer_Part_Number=TLP7820||@Other Part Number=||@3D Package=||@Height=
